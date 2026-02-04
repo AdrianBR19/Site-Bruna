@@ -17,7 +17,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    box-shadow: 0 2px 5px rgba(0,0,0,0);
+    box-shadow: 0 2px 5px rgba(0,0,0,0,1);
 }
 
 nav a {
@@ -96,8 +96,8 @@ footer {
 }
 
 .hero-img img {
-    max-width: 300px;
-    border-radius: 90%;
+    max-width: 220px;
+    border-radius: 50%;
     display: block;
     margin: 0;
 }
@@ -111,4 +111,5 @@ footer {
 
 .hero-img {
         max-width: 220px;
+
 }
